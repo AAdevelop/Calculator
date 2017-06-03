@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.3.2/css/mdb.min.css">
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+  <div>
+    <h1>&lt; javaScript calculator &#47;&gt;</h1>
+    <form class="main">
+      <input type="text" value="" id="display">
+      <input type="button" class="btn btn-unique" value="AC" onclick="toScreen('ac')">
+      <input type="button" class="btn btn-unique" value="C" onclick="backspace('ac')">
+      <input type="button" class="btn btn-primary" value="/" onclick="toScreen('/')">
+      <input type="button" class="btn btn-primary" value="*" onclick="toScreen('*')">
+      <input type="button" class="btn btn-danger" value="4" onclick="toScreen('7')">
+      <input type="button" class="btn btn-default" value="8" onclick="toScreen('8')">
+      <input type="button" class="btn btn-primary" value="9" onclick="toScreen('9')">
+      <input type="button" class="btn btn-primary" value="-" onclick="toScreen('-')">
+      <input type="button" class="btn btn-danger" value="4" onclick="toScreen('4')">
+      <input type="button" class="btn btn-default" value="5" onclick="toScreen('5')">
+      <input type="button" class="btn btn-primary" value="6" onclick="toScreen('6')">
+      <input type="button" class="btn btn-primary" value="+" onclick="toScreen('+')">
+      <input type="button" class="btn btn-danger" value="1" onclick="toScreen('1')">
+      <input type="button" class="btn btn-default" value="2" onclick="toScreen('2')">
+      <input type="button" class="btn btn-primary" value="3" onclick="toScreen('3')">
+      <input type="button" class="btn btn-primary" value="=" onclick="equal('=')">
+      <input type="button" id="zero" class="btn btn-primary" value="0" onclick="toScreen('0')">
+      <input type="button" class="btn btn-primary" value="." onclick="toScreen('.')">
+    </form>
+  </div>
+  <footer>
+    <a href="https://github.com/AAdevelop">abu ahamed</a>
+  </footer>
+</body>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+</html>

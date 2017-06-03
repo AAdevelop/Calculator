@@ -1,0 +1,54 @@
+body {
+  margin-top: 30px;
+  background: linear-gradient(to right, #4285f4, #cc0000);
+  text-align: center;
+  color:white;
+}
+
+h1{
+  font-size: 3em;
+}
+
+a {
+    color: white;
+}
+
+.main {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  background: white;
+  width: 415px;
+  margin: auto;
+  margin-top: 90px;
+  border-radius: 5px 30px 80px;
+  padding-bottom: 10px;
+  background: #fff;
+}
+
+#display{
+  width: 400px;
+  height: 50px;
+  font-size: 3em;
+  padding-left: 17px;
+  color:#1c2331;
+  border: 0px solid;
+  box-shadow: 0px #fff;
+}
+
+#zero{
+  width: 225px;
+}
+
+
+
+input {
+  margin: 5px;
+  width: 90px;
+  float: left;
+}
+
+footer{
+  text-align:center;
+  color: white;
+}
